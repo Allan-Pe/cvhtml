@@ -1,0 +1,121 @@
+h1{
+text-align:center;
+color:darkred;
+text-shadow: 2px 2px 2px red;
+font-family:monospace;
+
+font-size: 60px;
+}
+html{
+    background-image:url(im.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+li {
+list-style:none !important;
+color:yellow;
+padding:10px;
+font-size:20px;
+text-decoration:none;
+
+}
+ 
+nav ul {
+background-color:darkred;
+padding:0;
+margin:0;
+display: flex;
+justify-content:center;
+justify-content: space-around;
+margin-top: -30px;
+
+
+}
+ 
+nav ul li {
+list-style: none;
+line-height:44px;
+float:left;
+background-color:darkred;
+text-align: center;
+
+}
+ 
+nav ul li a {
+color:orange;
+text-shadow: 1px 1px 2px pink;
+padding:10px;
+font-size:20px;
+text-decoration:none;
+
+}
+ 
+li a:hover {
+border-bottom:6px yellow solid;
+color:red;
+
+}
+nav ul li ul { display:none; 
+    } /* Rend le menu déroulant caché par défaut */
+ 
+nav ul li:hover ul { /* Affiche la dropNav au survol de la souris avec la class .drop */
+z-index:99999;
+display:flex;
+flex-direction:column; 
+position:absolute;
+
+margin-top:5px;
+margin-left:-10px;
+}
+ 
+nav ul li:hover ul li {
+float:none;
+}
+h2{
+    color:aqua;
+    text-decoration: underline red;
+    text-align: center;
+
+}
+
+
+.option{
+
+    max-width:800px;
+	width: 95%;
+	margin:0 auto;
+	text-align: center;
+	align-content: center;
+	background-image:url(competence/im.jpg);
+	
+	flex: 1 0 100%;
+	margin-right: 30%;
+    
+
+}
+
+h3{
+	color: white;
+	text-shadow: 2px 2px 2px red;
+}
+
+
+#tourne :hover{
+	transition: transform 4s;
+	transform: rotate3d(1,1,1, 10turn);
+	border-radius: 50%;
+}
+#tourne img{
+	border-radius: 50%;
+}
+#switch{
+	display: flex;
+	margin-left: 15%;
+	margin-right: 15%;
+    overflow-x: scroll;
+    
+}
+
+

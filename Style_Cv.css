@@ -1,0 +1,57 @@
+
+#fond
+{
+	max-width:800px;
+	width: 95%;
+	margin:0 auto;
+	background-image: url(Fond.jpeg);
+	text-align: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	
+}
+
+body
+{
+	background-image: url(Univers.jpeg);
+	color: darkblue;
+}
+h2
+{
+	color: maroon;
+	text-shadow: 2px 2px 2px black;
+}
+ul li
+{
+	list-style-type: none;
+}
+h1
+{
+	color:darkblue;
+	font-family: Savoye LET;
+	font-size: 50px;
+	border:8px maroon double;
+	text-shadow: 2px 2px 2px black;
+	
+
+}
+h3{
+	color:darkgreen;
+	text-shadow: 1px 2px 2px darkblue;
+}
+#competence h2 a{
+	text-decoration-line: none;
+	color: maroon;
+}
+#competence h2 a:hover {
+text-decoration-line:none;
+color: yellow;
+}
+#Cliquez{
+
+	color: maroon;
+	text-shadow: 2px 2px 2px black;
+	font-size: 10px
+
+}
